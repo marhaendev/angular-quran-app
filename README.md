@@ -20,7 +20,7 @@ Aplikasi Al-Quran Digital modern yang dibangun menggunakan Angular, dengan desai
 *   **Frontend**: Angular 17+ (Standalone Components)
 *   **Styling**: SCSS (Custom Design System, No CSS Framework dependence)
 *   **State Management**: RxJS (Reactive)
-*   **API**: [Quran API V2](https://equran.id/api/v2) (Public API)
+*   **API**: [Quran API V2](https://equran.id/apidev/v2) (Public API)
 *   **Deployment**: Docker & Nginx
 
 ## 🚀 Cara Menjalankan
