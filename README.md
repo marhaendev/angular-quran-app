@@ -20,7 +20,7 @@ Aplikasi Al-Quran Digital modern yang dibangun menggunakan Angular, dengan desai
 *   **Frontend**: Angular 17+ (Standalone Components)
 *   **Styling**: SCSS (Custom Design System, No CSS Framework dependence)
 *   **State Management**: RxJS (Reactive)
-*   **API**: [Quran API V2](https://equran.id/apidev/v2) (Public API)
+*   **API**: <a href="https://equran.id/apidev/v2" target="_blank">Quran API V2</a> (Public API)
 *   **Deployment**: Docker & Nginx
 
 ## 🚀 Cara Menjalankan
@@ -92,7 +92,7 @@ quran-app/
 
 ## 🎨 Kredit & Desain
 
-Developed by **[hasanaskari.com](https://hasanaskari.com)**
+Developed by **<a href="https://hasanaskari.com" target="_blank">hasanaskari.com</a>**
 
 *   **Konsep Desain**: Modern Islamic Interface
 *   **Warna Utama**: Deep Emerald (`#1B5E20`) & Soft Gold (`#C5A059`)
