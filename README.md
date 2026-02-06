@@ -92,7 +92,8 @@ quran-app/
 
 ## 🎨 Kredit & Desain
 
-Developed by **<a href="https://hasanaskari.com" target="_blank">hasanaskari.com</a>**
+Developed by [TES](https://hasanaskari.com){:target="_blank"}
+ **<a href="https://hasanaskari.com" target="_blank">hasanaskari.com</a>**
 
 *   **Konsep Desain**: Modern Islamic Interface
 *   **Warna Utama**: Deep Emerald (`#1B5E20`) & Soft Gold (`#C5A059`)
