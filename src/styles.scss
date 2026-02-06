@@ -1,0 +1,77 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "@fortawesome/fontawesome-free/css/solid.css";
+@import "@fortawesome/fontawesome-free/css/regular.css";
+
+/* Global Design System - Premium Serene Emerald */
+:root {
+  --primary-deep: #1B5E20;
+  --primary-emerald: #2E7D32;
+  --accent-gold: #C5A059;
+  --bg-warm: #FDFCF0;
+  --text-slate: #2C3E50;
+  --text-muted: #7F8C8D;
+  --surface: #FFFFFF;
+  --border-light: #F0EDE0;
+  --card-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+  --card-hover-shadow: 0 15px 45px rgba(27, 94, 32, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-warm);
+  color: var(--text-slate);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: var(--primary-deep);
+}
+
+.arabic-font {
+  font-family: 'Amiri', serif;
+}
+
+/* Custom Scrollbar - Minimalist & Elegant */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-warm);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(46, 125, 50, 0.2);
+  border-radius: 10px;
+  border: 2px solid var(--bg-warm);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-emerald);
+}
+
+/* Glassmorphism helpers */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Transitions */
+a,
+button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}

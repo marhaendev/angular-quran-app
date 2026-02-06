@@ -1,0 +1,9 @@
+services:
+  quran-app:
+    build: .
+    container_name: quran-app-container
+    ports:
+      - "4200:80"
+    restart: always
+    environment:
+      - NODE_ENV=production
