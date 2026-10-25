@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  image: docker:cli
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+  script:
+    - echo "[Deploy] Memulai build image Docker quran..."
+    - docker build -t quran:latest .
+    - echo "[Deploy] Mengganti kontainer quran..."
+    - docker stop quran 2>/dev/null || true
+    - docker rm quran 2>/dev/null || true
+    - docker run -d --name quran --restart always -p 127.0.0.1:4200:80 quran:latest
+    - echo "[Deploy] Deployment sukses. Status kontainer:"
+    - sleep 3
+    - docker ps --filter name=quran
