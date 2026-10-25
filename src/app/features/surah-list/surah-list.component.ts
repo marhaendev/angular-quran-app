@@ -91,7 +91,7 @@ import { Surah } from '../../core/models/quran.model';
       </div>
 
       <footer class="app-footer animate-fade-in">
-        <p>Dikembangkan oleh <a href="https://hasanaskari.com" target="_blank" class="website-link">hasanaskari.com</a></p>
+        <p>Dikembangkan oleh <a href="https://hasanaskari.id" target="_blank" class="website-link">hasanaskari.id</a></p>
       </footer>
     </div>
   `,
